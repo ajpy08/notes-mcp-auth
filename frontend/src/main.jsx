@@ -7,7 +7,7 @@ import { createStytchUIClient } from '@stytch/react/ui';
 import './index.css'
 import App from './App.jsx'
 
-const stytch = createStytchUIClient('public-token-test-9200fce6-b71e-473c-a7e5-c3a362054fa2');
+const stytch = createStytchUIClient(import.meta.env.VITE_STYTCH_PUBLIC_TOKEN);
 
 
 createRoot(document.getElementById('root')).render(
