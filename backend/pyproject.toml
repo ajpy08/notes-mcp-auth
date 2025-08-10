@@ -1,0 +1,13 @@
+[project]
+name = "notes-mcp-auth"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastmcp[server]>=2.11.2",
+    "python-jose>=3.5.0",
+    "sqlalchemy>=2.0.42",
+    "stytch>=13.14.1",
+]
